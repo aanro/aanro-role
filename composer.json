@@ -1,0 +1,46 @@
+{
+  "name": "aanro/aanro-role",
+  "description": "aanro Role is a part of aanro Monster Components.",
+  "keywords": [
+    "role",
+    "service",
+    "aanro-role",
+    "starter-framework",
+    "aanro-starter",
+    "laravel"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aanro",
+      "email": "aanro@aanro.com",
+      "homepage": "https://www.aanro.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "zizaco/entrust": "5.2.x-dev",
+    "laravel/framework": "5.2.*|5.3.*|5.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "Someline\\Component\\Role\\": "src/Someline/Component/Role"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Someline\\Components\\Role\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
